@@ -13,6 +13,7 @@
   "author": "Arsyad",
   "license": "ISC",
   "devDependencies": {
+    "@types/node-fetch": "^2.6.11",
     "@typescript-eslint/eslint-plugin": "^7.7.0",
     "@typescript-eslint/parser": "^7.7.0",
     "eslint": "^8.57.0",
@@ -21,5 +22,10 @@
     "prettier": "^3.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@grammyjs/router": "^2.0.0",
+    "dotenv": "^16.4.5",
+    "grammy": "^1.22.4"
   }
 }
